@@ -1,148 +1,135 @@
-# Currency-Converter-Java
-Currency Converter (Java GUI Application)
-📌 Project Overview
+# 💱 Currency Converter – Java GUI Application
 
-The Currency Converter is a Java-based desktop application built using Java Swing for the graphical user interface (GUI).
-It allows users to convert an amount from one currency to another using predefined exchange rates.
+## 📖 Description
 
-This project demonstrates:
+**Currency Converter** is a desktop application developed in Java using Swing for the graphical user interface.
+The application allows users to convert an amount from one currency to another using predefined exchange rates.
 
-Object-Oriented Programming (OOP)
+This project demonstrates Java GUI development, event-driven programming, and object-oriented concepts.
 
-Java Swing GUI development
+---
 
-Event handling
+## 🚀 Features
 
-HashMap usage for storing currency rates
+* User-friendly graphical interface
+* Currency selection using dropdown menus (From / To)
+* Amount input field
+* Instant conversion on button click
+* Attractive modern UI design
+* Rounded button with hover effect
+* Proper error handling for invalid input
 
-Custom UI components (Rounded Buttons & Hover Effects)
+---
 
-🚀 Features
+## 🛠️ Technologies Used
 
-✅ User-friendly graphical interface
+* Java (JDK 8 or higher)
+* Java Swing
+* AWT (Abstract Window Toolkit)
+* HashMap (for storing currency exchange rates)
 
-✅ Currency selection (From / To) using dropdown menus
+---
 
-✅ Amount input field
+## 💵 Supported Currencies
 
-✅ Real-time conversion on button click
+* USD – United States Dollar
+* INR – Indian Rupee
+* EUR – Euro
+* GBP – British Pound
+* JPY – Japanese Yen
 
-✅ Attractive modern UI design
+*Note: Exchange rates are predefined inside the program.*
 
-✅ Rounded button with hover effect
+---
 
-✅ Error handling for invalid inputs
+## ⚙️ How the Application Works
 
-🖥️ Technologies Used
+1. The user enters an amount.
+2. Selects the source currency.
+3. Selects the target currency.
+4. Clicks the **Convert** button.
+5. The program:
 
-Java
+   * Converts the amount into USD (base currency).
+   * Converts USD into the selected target currency.
+6. Displays the final converted result on the screen.
 
-Java Swing
+### 🔄 Conversion Formula
 
-AWT (Abstract Window Toolkit)
-
-HashMap (for storing currency rates)
-
-📂 Project Structure
-Currency_Converter.java
-README.md
-⚙️ How It Works
-
-User enters the amount.
-
-User selects the source currency.
-
-User selects the target currency.
-
-Clicks the Convert button.
-
-The program:
-
-Converts the amount to USD (base currency).
-
-Converts USD to the selected target currency.
-
-Displays the final converted amount.
-
-🔄 Conversion Formula
 USD = Amount / FromRate
 ConvertedAmount = USD × ToRate
-💵 Supported Currencies
 
-USD (United States Dollar)
+---
 
-INR (Indian Rupee)
+## 📂 Project Structure
 
-EUR (Euro)
+Currency_Converter.java
+README.md
 
-GBP (British Pound)
+---
 
-JPY (Japanese Yen)
+## ▶️ How to Run the Project
 
-(Exchange rates are predefined inside the program.)
+### Step 1: Save the File
 
-▶️ How to Run the Project
-
-Install Java (JDK 8 or higher).
-
-Save the file as:
+Save the Java file as:
 
 Currency_Converter.java
 
-Open Command Prompt or Terminal.
+### Step 2: Compile the Program
 
-Compile the program:
+Open Command Prompt or Terminal in the project folder and run:
 
 javac Currency_Converter.java
 
-Run the program:
+### Step 3: Run the Program
 
 java Currency_Converter
-🎨 UI Highlights
 
-Clean card-style layout
+---
 
-Soft background theme
+## 🎨 User Interface Highlights
 
-Modern fonts
+* Clean and centered layout
+* Modern fonts
+* Soft background theme
+* Card-style design
+* Rounded button with hover effect
+* Professional desktop application look
 
-Rounded button with hover effect
+---
 
-Professional desktop application look
+## 📚 Learning Outcomes
 
-📚 Learning Outcomes
+By completing this project, you will understand:
 
-By building this project, you will understand:
+* Java Swing components
+* Layout managers
+* Event handling
+* GUI styling
+* Exception handling
+* Object-oriented programming concepts
 
-Java Swing layout managers
+---
 
-Event-driven programming
+## 🔮 Future Enhancements
 
-GUI component styling
+* Integration with real-time currency exchange API
+* Dark mode support
+* Swap currency button
+* Currency flags
+* Database integration
+* Historical exchange rate charts
 
-Custom component creation
+---
 
-Handling user input and exceptions
-
-🔮 Future Enhancements
-
-🌍 Real-time exchange rates using API
-
-🌙 Dark mode support
-
-🔄 Swap currency button
-
-🏳 Currency flag icons
-
-📊 Historical rate chart
-
-💾 Database integration
-
-👨‍💻 Author
+## 👨‍💻 Author
 
 Your Name
 Java GUI Project – Currency Converter
 
-📄 License
+---
 
-This project is for educational purposes.
+## 📄 License
+
+This project is created for educational purposes.
